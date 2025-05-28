@@ -56,3 +56,51 @@ Adicione um Load Balancer para distribuir tráfego entre múltiplas VMs.
 Configure Backups Automatizados com Azure Backup.
 
 Explore IaC: Crie a VM usando Terraform ou Bicep.
+
+## 1. Criar um Banco de dados Azure
+Acesse portal.azure.com e faça login com sua conta Microsoft.
+
+2. Criar um Novo Banco de Dados
+Opção A: Azure SQL Database (Recomendado para SQL Server)
+No menu, clique em "Criar um recurso" > "Bancos de Dados" > "SQL Database".
+
+Preencha os campos:
+
+Assinatura: Selecione sua assinatura.
+
+Grupo de recursos: Crie um novo (ex: lab-banco-dados).
+
+Nome do banco de dados: meu-banco-sql.
+
+Servidor: Clique em "Criar novo" e defina:
+
+Nome do servidor: meu-servidor-sql (deve ser único globalmente).
+
+Localização: "Sudeste do Brasil" (ou mais próximo de você).
+
+Método de autenticação: "Usar autenticação do SQL".
+
+Login de administrador: admin-lab (defina uma senha segura).
+
+Tipo de computação: "Uso geral" (mais barato para testes).
+
+Armazenamento: 5 GB (suficiente para laboratório).
+
+Clique em "Revisar + criar" e depois em "Criar".
+
+Opção B: Azure Database for MySQL/PostgreSQL
+No menu, clique em "Criar um recurso" > "Bancos de Dados" > "Azure Database for MySQL" (ou PostgreSQL).
+
+Preencha os campos:
+
+Nome do servidor: meu-servidor-mysql.
+
+Tipo de servidor: "Flexível" (mais econômico).
+
+Usuário/senha do administrador: Defina credenciais seguras.
+
+Tamanho do armazenamento: 20 GB (mínimo recomendado).
+
+Clique em "Revisar + criar" > "Criar".
+
+
