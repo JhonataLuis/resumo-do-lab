@@ -103,4 +103,6 @@ Tamanho do armazenamento: 20 GB (mínimo recomendado).
 
 Clique em "Revisar + criar" > "Criar".
 
+Adicionado assunto sobre identidade, acesso e segurança com Azure.
+
 
