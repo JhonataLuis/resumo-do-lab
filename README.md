@@ -105,4 +105,84 @@ Clique em "Revisar + criar" > "Criar".
 
 Adicionado assunto sobre identidade, acesso e segurança com Azure.
 
+## NPL
+
+Resumo do Desafio de Azure Speech & Language Studio
+Objetivo:
+Desenvolver habilidades práticas em IA de voz e linguagem natural usando ferramentas do Azure.
+
+Entregável:
+Repositório organizado com anotações e insights das práticas.
+
+Passos Essenciais para o Laboratório
+1. Configuração Inicial
+Crie recursos no Azure:
+
+Speech Service (para análise de fala)
+
+Language Service (para NLP)
+
+Acesse os estúdios:
+
+Azure Speech Studio
+
+Azure Language Studio
+
+2. Azure Speech Studio (Foco em Voz)
+Conversão Fala-Texto:
+
+Grave ou envie áudios para transcrição automática.
+
+Teste idiomas diferentes (ex: PT-BR, EN-US).
+
+Conversão Texto-Fala:
+
+Crie vozes sintéticas personalizadas (ajuste tom, velocidade, emoções).
+
+Identificação de Locutor:
+
+Diferencie falantes em um diálogo.
+
+3. Language Studio (Foco em NLP)
+Análise de Sentimentos:
+
+Avalie emoções em textos (positivo/neutro/negativo).
+
+Reconhecimento de Entidades:
+
+Identifique pessoas, locais, datas em textos.
+
+Extração de Palavras-Chave:
+
+Detecte termos relevantes em documentos.
+
+4. Cenário Integrado (Exemplo Prático)
+Transcreva um áudio de atendimento ao cliente (Speech Studio).
+
+Analise sentimentos e extraia reclamações (Language Studio).
+
+Gere insights automáticos:
+
+Exemplo: "Cliente insatisfeito com prazo de entrega".
+
+✨ Dicas Adicionais
+Documente:
+
+Precisão por idioma (ex: PT-BR vs. inglês).
+
+Limitações encontradas (ex: termos técnicos).
+
+Integração: Use Python SDK para automatizar fluxos.
+
+Monitore custos no Azure para evitar gastos inesperados.
+
+Estrutura de Repositório Sugerida:
+
+plaintext
+📁 Lab_Azure-Speech-Language/
+├── 📄 README.md
+├── 📁 speech-studio/     # Testes de transcrição, síntese de voz
+├── 📁 language-studio/   # Análises de sentimentos/entidades
+└── 📁 integracao/        # Fluxos combinados (ex: áudio → texto → insights)
+
 
