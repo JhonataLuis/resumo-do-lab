@@ -206,4 +206,31 @@ Utilização dos índices criados para realizar pesquisas, análises e recupera�
 Conclusão:
 O laboratório focou na integração de IA para transformar dados brutos em informações estruturadas e acessíveis, capacitando os participantes a implementar fluxos de organização e recuperação documental automatizados.
 
+## Explorando os Recursos de IA Generativa com Copilot e OpenAI
+### Objetivo Principal:
+Explorar as funcionalidades do Copilot e ferramentas da OpenAI, com foco em filtros de conteúdo e recursos de criação assistida por IA.
+
+Elementos-Chave Abordados:
+
+Filtros de Conteúdo:
+
+Mecanismos para controle e adequação de saídas geradas pela IA, garantindo conformidade com diretrizes éticas e de segurança.
+
+Criação Assistida por IA:
+
+Utilização de prompts estratégicos para gerar textos, códigos, análises e outros conteúdos com apoio das ferramentas.
+
+Entregável Concreto:
+
+Repositório organizado contendo:
+
+Exemplos práticos de uso das ferramentas.
+
+Prompts aplicados em diferentes contextos.
+
+Anotações documentando aprendizados e observações.
+
+Conclusão:
+O laboratório capacitou os participantes a aplicar recursos avançados de IA (Copilot/OpenAI) na criação de conteúdo controlado e eficiente, resultando em um repositório estruturado para consulta futura e compartilhamento de conhecimento.
+
 
