@@ -185,4 +185,25 @@ plaintext
 ├── 📁 language-studio/   # Análises de sentimentos/entidades
 └── 📁 integracao/        # Fluxos combinados (ex: áudio → texto → insights)
 
+## Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
+### Objetivo Principal:
+Aplicar técnicas de organização e pesquisa de documentos utilizando inteligência artificial.
+
+Passos Fundamentais:
+
+Ingestão de Conteúdo para IA:
+
+Coleta e preparação de dados/documentos para processamento por ferramentas de IA.
+
+Criação de Índices Inteligentes:
+
+Indexação automatizada dos documentos, permitindo busca eficiente através de metadados ou conteúdo semântico gerado por IA.
+
+Exploração Prática dos Dados:
+
+Utilização dos índices criados para realizar pesquisas, análises e recuperação inteligente da informação organizada.
+
+Conclusão:
+O laboratório focou na integração de IA para transformar dados brutos em informações estruturadas e acessíveis, capacitando os participantes a implementar fluxos de organização e recuperação documental automatizados.
+
 
